@@ -367,6 +367,7 @@ function getRequiredHoursPerMonth(textFile, rateFile, bonusCount, driverID, mont
 
     }
 
+
     for(let i = 0; i < bonusCount; i++)
         TotalRequired -=2*3600; 
 
@@ -437,8 +438,10 @@ function getNetPay(driverID, actualHours, requiredHours, rateFile) {
 
     return netPay;
     
-}
 
+    
+
+}
 
 
 module.exports = {
